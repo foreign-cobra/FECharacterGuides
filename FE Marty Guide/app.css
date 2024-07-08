@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #202020;
+    color: #ffffff;
+}
+
+#mainImage {
+    background-color: #3c1e22;
+    text-align: center;
+    padding: 19rem;
+    background-image: url('ezgif.com-crop\ \(9\).gif');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+h1 {
+    margin: 0;
+    color: #333;
+    padding: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+#navBar {
+    background-color: #2c3e50;
+    text-align: center;
+    /* position: sticky; */
+    position: sticky;
+    top: 0px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: maroon;
+    transition: 0.2s;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #ff5555;
+    border-bottom: 2px solid #ff5555;
+    padding-bottom: 5px;
+    margin: 0 0 10px;
+}
+
+article {
+    padding: 10px;
+    background-color: #34495e;
+}
+
+h3 {
+    /* margin: 0 0 10px;
+    color: #ffffff; */
+    color: #ff5555;
+    border-bottom: 2px solid #ff5555;
+    padding-bottom: 5px;
+    margin: 0 0 10px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+footer {
+    background-color: #2c3e50;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.column {
+    float: left;  
+}
+
+.left {
+    width: 15%;
+}
+
+#leftBar {
+    padding: 2rem;
+}
+
+.middle {
+    width: 70%;
+}
+
+.right {
+    width: 15%;
+}
+
+#rightBar {
+    padding: 2rem;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+}
+
+#usefulLinks {
+    font-size: large;
+}
+
+/* .mareetaText {
+    float: right;
+} */
+
+#martyImage {
+    width: 20%;
+    height: 20%;
+    margin-top: 0rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+#martyImage:hover {
+    border: 2px solid maroon;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+#container {
+    display: flex;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    /* float: left; */
+}
+
+th, td {
+    border: 1px solid #444444;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #333333;
+    color: #ffffff;
+}
+tr:nth-child(even) {
+    background-color: #444444;
+}
+tr:nth-child(odd) {
+    background-color: #555555;
+}
+
+#martySprite {
+    width: 25%;
+    height: 25%;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+#martySprite:hover {
+    border: 2px solid maroon;
+}
+
+#weaponIcon {
+    width: 25%;
+    height: 25%;
+}
+
+#skillIcon {
+    width: 40%;
+    height: 40%;
+}
